@@ -87,7 +87,7 @@ class Event(BaseModel):
     ...
 ```
 
-This should give an idea on how the schemas are expected to be. In reality the schemas will be split into an abstract base classes, a class with the data related to action and a main class. For example, if the user is being made, there will be a `UserCreate` schema, and when the user data is being shown, the `User` schema will be used, both of which will inherit from the [ABC](https://www.educative.io/answers/what-is-the-abstract-base-class-in-python) `UserBase` which will have the information not present in both the other classes.
+This should give an idea on how the schemas are expected to be*. In reality the schemas will be split into an abstract base classes, a class with the data related to action and a main class. For example, if the user is being made, there will be a `UserCreate` schema, and when the user data is being shown, the `User` schema will be used, both of which will inherit from the [ABC](https://www.educative.io/answers/what-is-the-abstract-base-class-in-python) `UserBase` which will have the information not present in both the other classes.
 
 
 <h2 id='db'>📙Database</h2>
@@ -98,3 +98,5 @@ For the database connectivity, we will be using an ORM library (possibly [`SQLAl
 <h2 id='api'>🔗API Gateway</h2>
 
 The CHQ Backend will also be responsible for creating and designing the API gateway that will be a center point of communication between the CHQ Interfaces([CLI](https://github.com/Coders-HQ/CLI) and [Admin](https://github.com/Coders-HQ/Admin)) and the [CHQ Bounty](https://github.com/Coders-HQ/Bounty). It is preferred to make a [REST API](https://restfulapi.net/) following all the REST principles. This API must also be flexible, meaning that it must be easy to add or remove code/modules. It must be inter-compatible since it will be used by 3 different systems with, possibly, an entirely different people.
+        
+<h6>*These are the initial schemas. As the projects grows we may need to add more and tune a few things. For now we can start here and improve with time.</h6>
