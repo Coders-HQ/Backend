@@ -1,0 +1,34 @@
+baseURL: "http://localhost"
+languageCode: "en-us"
+title: "CodersHQ Backend"
+theme: "hugo-geekdoc"
+
+# Required to get well formatted code blocks
+pygmentsUseClasses: true
+pygmentsCodeFences: true
+disablePathToLower: true
+enableGitInfo: true
+
+# Required if you want to render robots.txt template
+enableRobotsTXT: true
+
+markup:
+  goldmark:
+    # Needed for mermaid shortcode
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+    endLevel: 9
+
+taxonomies:
+  tag: tags
+
+params:
+  enableEmoji: true
+  # (Optional, default static/brand.svg) Set the path to a logo for the Geekdoc
+  # relative to your 'static/' folder.
+  geekdocLogo: logo-short-black.png
+  # (Optional, default none) Set source repository location. Used for 'Edit page' links.
+  # You can also specify this parameter per page in front matter.
+  geekdocRepo: "https://github.com/Coders-HQ/Backend"
