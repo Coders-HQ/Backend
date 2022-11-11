@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /tags/*
 
-Sitemap: https://codershq.github.io/backend/sitemap.xml
+Sitemap: https://coders-hq.github.io/Backend/sitemap.xml
