@@ -1,4 +1,4 @@
-baseURL: "http://localhost"
+baseURL: "https://codershq.github.io/backend"
 languageCode: "en-us"
 title: "CodersHQ Backend"
 theme: "hugo-geekdoc"
