@@ -5,7 +5,7 @@ geekdocAlign: center
 
 This site contains all the information related to the backend teams at CodersHQ. It includes projects information, teams information, learning resources.
 
-![CodersHQ logo](/static/logo.png)
+![CodersHQ logo](logo.png)
 
 We are tasked with the design and creation of a scalable, documented, secure an API platform.
 
